@@ -1,0 +1,84 @@
+.container-404 {
+  display: flex;
+  position: relative;
+  top: 200px;
+  left: 10%;
+  height: 500px;
+  width: 80%;
+  margin: 0;
+  padding: 2px;
+  flex-direction: column;
+}
+
+.error {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.error-404 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 1rem;
+  border-right: 1px solid #fff;
+}
+
+.error-404 label {
+  font-size: 6rem;
+  font-weight: bold;
+  text-shadow: 3px 3px #222;
+  color: #fff;
+}
+
+.error-message {
+  width: 50%;
+  height: 100%;
+  font-size: 1rem;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.error-message label {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.error-message p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.helper-panel {
+  display: flex;
+  flex-direction: row;
+  border: 1rem solid rgba(220, 220, 220, 0.5);
+  height: 50px;
+}
+
+input {
+  width: 90%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: rgba(120, 120, 120, 0.5);
+}
+
+button {
+  width: 10%;
+  height: 100%;
+  background-color: #da0b5d;
+  border: 1px solid #da0b5d;
+  border: none;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

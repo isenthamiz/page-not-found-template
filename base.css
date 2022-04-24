@@ -1,0 +1,14 @@
+html {
+  /* Base styles go here */
+  font: 14px/1.5 Arial, sans-serif;
+  background: #db0b5c;
+}
+
+body {
+  background: #db0b5c;
+  padding: 0 20px;
+  width: 920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
